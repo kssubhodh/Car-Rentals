@@ -1,10 +1,9 @@
-package com.project.entities.Cars;
+package com.project.entities;
 
-import com.project.dtos.Car.CarImageDto;
+import com.project.dtos.CarImageDto;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
 @Entity
 @Data
 @Table(name="cars_image")
@@ -15,11 +14,12 @@ public class CarImage {
     
     @Column(columnDefinition = "longblob")
     private byte[] image; 
-
-    public CarImageDto getCarImgDto(){
-        CarImageDto carimgDto = new CarImageDto();
-        carimgDto.setId(id);
-        carimgDto.setImage(image);
-        return carimgDto;
+    
+    
+    public CarImageDto getCarImage() {
+    	CarImageDto carImage = new CarImageDto();
+        carImage.setId(id);
+        carImage.setReturnedImage(image);
+        return carImage;
     }
 }

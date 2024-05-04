@@ -1,11 +1,12 @@
-package com.project.dtos.Car;
+package com.project.dtos;
 
 import lombok.Data;
 
 @Data
-public class EmployeeDealershipDto {
-
+public class CarDealershipDto {
+	
+	private Long id;
     private String employee;
     private String dealership;
-    
+
 }
