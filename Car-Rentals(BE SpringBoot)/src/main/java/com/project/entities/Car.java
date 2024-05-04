@@ -3,8 +3,6 @@ package com.project.entities;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.util.Date;
-
 import com.project.dtos.CarDto;
 
 @Entity

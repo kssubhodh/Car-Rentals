@@ -1,9 +1,7 @@
 package com.project.dtos;
-import jakarta.persistence.Column;
-import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.util.Date;
+import lombok.Data;
 
 @Data
 public class CarDto {
@@ -22,17 +20,17 @@ public class CarDto {
 
     private String modelYear;
 
-    private String description;
-
     private Integer price;
+
+    private String employee;
+
+    private String dealership;
+
+    private String description;
 
     private MultipartFile image;
 
     private byte[] returnedImage;
-    
-    private String employee;
-    
-    private String dealership;
 
 }
 
