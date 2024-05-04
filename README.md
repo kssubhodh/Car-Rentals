@@ -30,6 +30,7 @@ This will compile the Angular application and start a development server on `htt
 
 1. Run the Mysql server and create a local instance and connect it.
 2. Create a database name rentacar_db.
+3. Make sure to change your mysql username and password in application.properties file
 
 ## Accessing the Application
 
