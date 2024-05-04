@@ -4,6 +4,8 @@ This repository contains code for a simple Car-Rentals application built with An
 
 ![app demo](App_Demo.gif)
 
+- <h3> <a href="https://docs.google.com/document/d/1L4aRVy6VxyHYHMweGLFgMNeTSl0YdgLaBCh0LmzX1Qg/edit?usp=sharing">Project Report CS-157A</a></h3>
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
