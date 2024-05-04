@@ -1,6 +1,6 @@
 # Angular Frontend and Spring Boot Backend
 
-This repository contains code for a simple Car-Rentals application built with Angular on the frontend and Spring Boot on the backend and MySql.
+This repository contains code for a Car-Rentals application built with Angular on the frontend and Spring Boot on the backend and MySql.
 
 ![app demo](App_Demo.gif)
 
